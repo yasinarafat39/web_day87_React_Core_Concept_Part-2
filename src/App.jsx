@@ -1,6 +1,9 @@
  
 import './App.css'
 import Counter from './Counter'
+import Friends from './Friends'
+import Team from './Team'
+import Users from './Users'
 
 function App() {
  
@@ -15,6 +18,7 @@ function App() {
   return (
     <>
        <h1>React Core Concepts part 2</h1>
+       <Friends></Friends>
        <button onClick={handleClick}>
         Click Me
        </button>
@@ -22,6 +26,8 @@ function App() {
         Click Me also
        </button>
        <Counter></Counter>
+       <Team></Team>
+       <Users></Users>
     </>
   )
 }
